@@ -36,7 +36,7 @@ global.socialm = "GitHub: infinitysl05" // github or insta name
 global.location = "Srilanka" // location
 
 //bot body 
-global.alivepic = `ezgif.com-gif-maker.gif` // alive picture \\ use "https://ibb.com" to upload photos. < 1 MB
+global.alivepic = `./Android/src/ezgif.com-gif-maker.gif` // alive picture \\ use "https://ibb.com" to upload photos. < 1 MB
 
 global.dragonchat = "true"  // chat bot  "true" / "false" (200 auto replies in this)
 global.callblock = "false" // call block "true" / "false" ("true"  to block callers)
@@ -94,12 +94,12 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thum = fs.readFileSync("ezgif.com-gif-maker.gif") //ur thumb pic
-global.log0 = fs.readFileSync("ezgif.com-gif-maker.gif") //ur logo pic
-global.err4r = fs.readFileSync(".ezgif.com-gif-maker.gif") //ur error pic
-global.thumb = fs.readFileSync("ezgif.com-gif-maker.gif") //ur thumb pic
+global.thum = fs.readFileSync("./Android/src/ezgif.com-gif-maker.gif") //ur thumb pic
+global.log0 = fs.readFileSync("./Android/src/ezgif.com-gif-maker.gif") //ur logo pic
+global.err4r = fs.readFileSync("./Android/src/ezgif.com-gif-maker.gif") //ur error pic
+global.thumb = fs.readFileSync("./Android/src/ezgif.com-gif-maker.gif") //ur thumb pic
 
-global.thumb = fs.readFileSync('ezgif.com-gif-maker.gif')
+global.thumb = fs.readFileSync('./Android/src/ezgif.com-gif-maker.gif')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
